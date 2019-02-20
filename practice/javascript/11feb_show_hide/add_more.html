@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <title>Appending</title>
+</head>
+<body>
+    <script>
+         count=1; i=0;
+       function appending()
+        {
+            
+            gget=document.getElementById("add");
+            gget.innerHTML+="<br>Input Column:-"+count+"<br>";
+            inp=document.createElement("input");
+            inp.setAttribute("type","text");
+            inp.setAttribute("name","text");
+            inp.setAttribute("id","id"+(++i));
+            
+            gget.appendChild(inp);
+            gget.innerHTML+="<br>";
+            count++;
+        }
+        
+        function show()
+        {
+            var box=document.getElementById("add").getElementsByTagName("input");
+            var txt=document.getElementById("update");
+            txt.innerHTML="elements are:- "+box.length+ "<br>";
+            
+            for(var k=1;k<=box.length;k++)
+                {
+                    j=k;
+                    txt.innerHTML+="input type "+(j++)+" :-"+document.getElementById("id"+(k)).value+"<br>";
+                }
+            
+        }
+        
+    </script>    
+
+    <button onclick="appending()">ADD MORE</button>
+    <div id="add"></div>
+    <br><br><br>
+    
+    <button onclick="show()">Submit</button>
+    <div id="update"></div>
+    
+    </body>
+</html>

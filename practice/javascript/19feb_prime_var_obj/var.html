@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+<head>
+<title>var and let </title>
+    </head>
+<body>
+    <script>
+        console.log("hello");
+    let y=20;
+    var x=10;
+        console.log(x);
+        {  
+            console.log(x);
+            var x=20; let y=30;
+            console.log(x);
+            console.log(y);
+            document.write("value of var x inside a block="+x+"<br>");
+            document.write("value of let y inside a block="+y+'<br>');
+            
+        }
+        document.write("value of x outside the block var x="+x+"<br>");
+        document.write(" value of let y outside the block is not overridden="+y+'<br>');
+        console.log(x);
+        console.log(y);
+        function ab()
+        {
+            var x=30;
+            document.write("value of x inside function is "+x+"<br>");
+            
+        }
+    ab();
+        document.write("value of x outside function is "+x+"<br>");
+    </script>
+    </body>
+    
+</html>

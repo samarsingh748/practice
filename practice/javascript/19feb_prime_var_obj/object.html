@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+<head>
+<title>for in loop </title>
+    </head>
+<body>
+    <script>
+        function abc()
+        {
+             var obj={name:"samar",course:"mca",uni:"lpu",regis:11609469,num:9473515900};
+             var obj1="";
+            for(x in obj)
+                { 
+                  obj1=obj1+obj[x];      
+                   
+                }
+            document.write(obj1);
+            obj={comp:"zap"};
+             for(x in obj)
+                {
+                  obj1=obj1+obj[x];
+                    document.write("<br>");
+                   
+                }   
+            document.write(obj1);
+        }
+        abc();
+    </script>
+    </body>
+</html>

@@ -1,0 +1,194 @@
+.logo{
+    height:50px;
+    padding-left: 80px;
+}
+.navcss
+{
+    padding-right: 80px;
+    font-size: 15px;
+    
+}
+.navcss a:hover{
+	
+	background: #1ebbb0 !important;
+	border-bottom: 2px #1ebbb0  !important;
+}
+
+
+
+.list{
+ color:black;
+}
+
+.caro{
+	margin: 0px;
+	padding: 0px;
+	margin-top: -3.5vh;
+	}
+
+.caro img{
+	width: 100%;
+	margin-top: 0px;
+}
+
+
+.mrgn
+{
+    margin-top:-120px;
+    margin-left: 5px;
+}
+
+.img
+{
+    height:450px;
+}
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    color: #FFF;
+}
+.fname
+{
+    padding:5px;
+    width:15%;
+    margin-top: 5px;
+}
+.email
+{
+    padding:5px;
+    width:30%;
+    margin-top:10px;
+}
+.button-new
+{
+     padding:5px;
+    width:30%;
+    height:30px;
+    margin-top:10px;
+    background-color: aquamarine;
+}
+.bottom-left {
+  position: absolute;
+  left: 7%;
+
+    border-right-color: bisque;
+    border-right-style: solid;
+}
+.centered {
+  font-style: italic;
+  position: absolute;
+  top: 96%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.feature hr{
+	height: 3px;
+	width: 10%;
+	background: black;
+}
+
+}
+.featicon button{
+	background-color: transparent;
+	color: black;
+	width: 20vw;
+	margin: 10px;
+}
+
+.more
+{  position:absolute;
+    margin-top:-5%;
+    left:40%;
+   width:20%;    
+}
+.fnt
+{
+    font-size: 50px;
+}
+
+.trust
+{ position:absolute;
+height: 300px;
+  width:96.66%;
+    background-image: url('../images/trusted-by-BG.jpg') !important;
+background-size: 100%;
+    color:white;
+    font-size: 20px;
+    padding:15px;
+  
+}
+.tr{
+    font-size: 30px;
+    padding:30px;
+}
+
+
+
+.signup
+{
+    position:absolute;
+    margin-top:30%;
+    font-size: 50px ;
+    border-right-color: bisque;
+    border-right-style: solid;
+
+}
+.form
+{
+    position:absolute;
+    margin-top:50%;
+    margin-right:5px; 
+    left:40%;
+    
+}
+.citi
+{
+    margin-top:40%;
+ position:absolute;
+height: 150px;
+  width:96.66%;
+    background-image: url('../images/citi-sillihoutes-bg.png');
+background-size: 100%;
+}
+
+.clr1
+{
+    background-color: black;
+    margin-top:50%;
+ position:absolute;
+height: 250px;
+  width:96.66%;
+background-size: 100%;
+}
+.abovefooter
+{
+    position: absolute;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20%;
+    padding-left: 40%;
+}
+.about
+{
+     position:absolute;
+    left:150px;
+    margin-right: 5px;
+    list-style-type: none;
+    color:white;
+    padding:0px;
+}
+
+.foot
+{  
+    margin-top:72.5%;
+    text-align: center;
+    background-color:#1b1818;
+    color:white;
+    padding:10px;
+    margin-right:-2px;
+    
+}

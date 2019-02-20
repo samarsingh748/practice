@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body onload="hideme()">
+        <br>
+             <div>  <input type="text" placeholder="First Name" id="first"></div>
+        <br>
+     <div> <input type="text" placeholder="Last Name" required  id="last"></div>
+     
+        <br><div> <input type="Submit" id="btn" onclick="btnfunc()"></div>
+     <div>
+         <div>
+            <label id="firstname"></label>
+         </div>
+         <div >
+            <label id="lastname"></label>
+         </div>
+     </div>                    
+    </body>
+</html>
+<script>
+    function hideme() {
+         $(document).ready(function(){
+            $("#last").hide();  });
+                      }
+   function btnfunc(){
+        lastname = (document).getElementById("last").value 
+        if(lastname == "")
+            {
+                alert("Last name field is required");
+                $(document).ready(function(){
+                          $("#last").show();
+                         });
+            }
+        else {
+            document.getElementById('firstname').innerHTML = (document).getElementById("first").value;
+            document.getElementById('lastname').innerHTML = (document).getElementById("last").value;
+        }
+    }
+</script>

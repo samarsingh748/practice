@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Prime numbers!</title>
+    </head>
+      <body> 
+        <script>
+  var num=2;
+  var count; 
+  document.write("1 to 50 prime numbers are :-");
+  console.log("1 to 50 prime numbers are :-"); 
+  while(num<=50)
+  {
+    count=0;
+    i=2;
+    while(i<=num/2)
+    {
+      if(num%i==0)
+      {
+        count++;
+        break;
+       }
+      i++;	
+    }	
+    if(count==0)
+    {
+	document.write("<br>"+num);
+    console.log(num);
+    }
+    num++; 
+  }
+        </script>
+    </body>
+        </html>

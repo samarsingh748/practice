@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Table Without Loops </title>
+</head>
+<body>
+    <script>
+        function table()
+        {
+            document.write(x*n+'<br>');
+            n++;
+            if(n<=10)
+                table(x,n);
+        }
+        var x=prompt("enter the number");
+        n=1;
+        table(x,n); 
+    </script>    
+</body>
+</html>
